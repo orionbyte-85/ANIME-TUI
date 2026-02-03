@@ -1,0 +1,630 @@
+ * Serving Flask app 'stremio_addon'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:7000
+ * Running on http://192.168.1.11:7000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:__main__:Stream request: series/tt12432936:1:3
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王学院的不适任者', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Maō Gakuin no Futekigōsha']
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Searching for S01E03 with 9 title variations
+INFO:__main__:Trying title: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:Found 1 streams with title: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou
+INFO:__main__:Total unique streams: 1
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:43:09] "GET /stream/series/tt12432936:1:3.json HTTP/1.1" 200 -
+INFO:__main__:Stream request: series/tt12432936:1:1
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王学院的不适任者', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Maō Gakuin no Futekigōsha']
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Searching for S01E01 with 9 title variations
+INFO:__main__:Trying title: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Nyaa: 2 streams
+INFO:__main__:Found 3 streams with title: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou
+INFO:__main__:Total unique streams: 2
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:43:45] "GET /stream/series/tt12432936:1:1.json HTTP/1.1" 200 -
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王学院的不适任者', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Maō Gakuin no Futekigōsha']
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Searching for S01E02 with 9 title variations
+INFO:__main__:Trying title: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Nyaa: 1 streams
+INFO:__main__:Found 2 streams with title: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou
+INFO:__main__:Total unique streams: 2
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:44:18] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+[nyaa] Searching: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou 03
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou 03
+[nyaa] No results found
+[nyaa] Searching: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou 01
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou 01
+[nyaa] Found 4 torrents
+[nyaa] Searching: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou 02
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou 02
+[nyaa] Found 1 torrents
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:__main__:Stream request: series/tt12432936:1:1
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王学院的不适任者', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Maō Gakuin no Futekigōsha']
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E01 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Samehadaku: 15 streams
+INFO:__main__:  └─ Otakudesu: 28 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:Found 49 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 47
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:46:56] "GET /stream/series/tt12432936:1:1.json HTTP/1.1" 200 -
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王学院的不适任者', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Maō Gakuin no Futekigōsha']
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Samehadaku: 11 streams
+INFO:__main__:  └─ Otakudesu: 28 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:Found 45 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 45
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:47:30] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Samehadaku: 11 streams
+INFO:__main__:  └─ Otakudesu: 28 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:Found 45 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 45
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:48:39] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+[nyaa] Searching: Maou Gakuin no 01
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 01
+[nyaa] Found 49 torrents
+[nyaa] Searching: Maou Gakuin no 02
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 02
+[nyaa] Found 31 torrents
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王学院的不适任者', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Maō Gakuin no Futekigōsha']
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王学院的不适任者', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Maō Gakuin no Futekigōsha']
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Otakudesu: 28 streams
+ERROR:__main__:Stream error: 2 (of 4) futures unfinished
+Traceback (most recent call last):
+  File "/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py", line 143, in stream
+    for future in as_completed(futures, timeout=10):
+                  ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 239, in as_completed
+    raise TimeoutError(
+            '%d (of %d) futures unfinished' % (
+            len(pending), total_futures))
+TimeoutError: 2 (of 4) futures unfinished
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:49:36] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+[nyaa] Searching: Maou Gakuin no 02
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 02
+[nyaa] Found 31 torrents
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:__main__:Stream request: series/tt12432936:1:1
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王学院的不适任者', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Maō Gakuin no Futekigōsha']
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E01 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:  └─ Otakudesu: 28 streams
+ERROR:__main__:Stream error: 1 (of 4) futures unfinished
+Traceback (most recent call last):
+  File "/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py", line 143, in stream
+    for future in as_completed(futures, timeout=10):
+                  ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 239, in as_completed
+    raise TimeoutError(
+            '%d (of %d) futures unfinished' % (
+            len(pending), total_futures))
+TimeoutError: 1 (of 4) futures unfinished
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:50:57] "GET /stream/series/tt12432936:1:1.json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:51:41] "GET /manifest.json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:51:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:51:44] "GET /manifest.json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:51:45] "GET /manifest.json HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:51:45] "GET /manifest.json HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+[nyaa] Searching: Maou Gakuin no 01
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 01
+[nyaa] Found 49 torrents
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:54:10] "GET /manifest.json HTTP/1.1" 200 -
+INFO:__main__:Stream request: series/tt12432936:1:1
+INFO:__main__:Stream request: series/tt12432936:1:1
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E01 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E01 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:  └─ Otakudesu: 28 streams
+INFO:__main__:  └─ Otakudesu: 28 streams
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+INFO:__main__:Found 34 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 32 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:54:45] "GET /stream/series/tt12432936:1:1.json HTTP/1.1" 200 -
+INFO:__main__:Found 34 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 32 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:54:52] "GET /stream/series/tt12432936:1:1.json HTTP/1.1" 200 -
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Otakudesu: 28 streams
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+INFO:__main__:Found 34 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 34 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:55:25] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+[nyaa] Searching: Maou Gakuin no 01
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 01
+[nyaa] Searching: Maou Gakuin no 01
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 01
+[nyaa] Found 49 torrents
+[nyaa] Found 49 torrents
+[nyaa] Searching: Maou Gakuin no 02
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 02
+[nyaa] Found 31 torrents
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:__main__:Stream request: series/tt12432936:1:1
+INFO:__main__:Stream request: series/tt12432936:1:1
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E01 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E01 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:  └─ Otakudesu: 8 streams
+INFO:__main__:  └─ Otakudesu: 8 streams
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+[nyaa] Searching: Maou Gakuin no 01
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 01
+[nyaa] Searching: Maou Gakuin no 01
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 01
+[nyaa] Found 49 torrents
+[nyaa] Found 49 torrents
+INFO:__main__:Found 14 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 12 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:58:09] "GET /stream/series/tt12432936:1:1.json HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Otakudesu: 8 streams
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Otakudesu: 8 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Otakudesu: 8 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Otakudesu: 8 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Otakudesu: 8 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:Found 14 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 14 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:58:45] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Otakudesu: 8 streams
+INFO:__main__:  └─ Samehadaku: 3 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:Found 17 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 17 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:58:45] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Samehadaku: 3 streams
+INFO:__main__:  └─ Otakudesu: 8 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:Found 17 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 17 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:58:45] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Samehadaku: 3 streams
+INFO:__main__:  └─ Otakudesu: 8 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:Found 17 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 17 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:58:45] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+INFO:__main__:Found 14 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 14 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:59:50] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:__main__:Found 14 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 14 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:59:51] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:__main__:Found 14 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 14 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:59:53] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:__main__:Found 14 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 14 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 06:59:54] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+[nyaa] Searching: Maou Gakuin no 02
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 02
+[nyaa] Found 31 torrents
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:__main__:Stream request: series/tt12432936:1:1
+INFO:__main__:Stream request: series/tt12432936:1:1
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E01 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E01 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:  └─ Otakudesu: 28 streams
+INFO:__main__:  └─ Otakudesu: 28 streams
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+INFO:__main__:Found 34 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 32 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 07:02:53] "GET /stream/series/tt12432936:1:1.json HTTP/1.1" 200 -
+INFO:__main__:Found 34 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 32 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 07:02:55] "GET /stream/series/tt12432936:1:1.json HTTP/1.1" 200 -
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Otakudesu: 28 streams
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+INFO:__main__:Found 34 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 34 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 07:03:23] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+[nyaa] Searching: Maou Gakuin no 01
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 01
+[nyaa] Searching: Maou Gakuin no 01
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 01
+[nyaa] Found 49 torrents
+[nyaa] Found 49 torrents
+[nyaa] Searching: Maou Gakuin no 02
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 02
+[nyaa] Found 31 torrents
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:__main__:Stream request: series/tt12432936:1:1
+INFO:__main__:Stream request: series/tt12432936:1:1
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E01 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E01 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+INFO:__main__:Found 6 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 3 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 07:07:27] "GET /stream/series/tt12432936:1:1.json HTTP/1.1" 200 -
+INFO:__main__:Found 6 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 3 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 07:07:28] "GET /stream/series/tt12432936:1:1.json HTTP/1.1" 200 -
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+INFO:__main__:Found 6 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 5 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 07:08:01] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Samehadaku: 2 streams
+INFO:__main__:  └─ Otakudesu: 8 streams
+INFO:__main__:  └─ Nyaa: 5 streams
+INFO:__main__:Found 16 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 15 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 07:08:14] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+[nyaa] Searching: Maou Gakuin no 01
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 01
+[nyaa] Searching: Maou Gakuin no 01
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 01
+[nyaa] Found 49 torrents
+[nyaa] Found 49 torrents
+  [blogger] Scraping for direct URL...
+  [blogger] ✓ Found direct URL
+  [blogger] Scraping for direct URL...
+  [blogger] ✓ Found direct URL
+[nyaa] Searching: Maou Gakuin no 02
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 02
+[nyaa] Found 31 torrents
+  [blogger] Scraping for direct URL...
+  [blogger] ✓ Found direct URL
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:__main__:Stream request: series/tt12432936:1:1
+INFO:__main__:Stream request: series/tt12432936:1:1
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E01 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E01 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results
+INFO:__main__:Found 1 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 1 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 07:13:35] "GET /stream/series/tt12432936:1:1.json HTTP/1.1" 200 -
+INFO:__main__:Found 1 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 1 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 07:13:36] "GET /stream/series/tt12432936:1:1.json HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+[nyaa] Searching: Maou Gakuin no 01
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 01
+[nyaa] Searching: Maou Gakuin no 01
+[nyaa] URL: https://nyaa.si/?f=0&c=1_2&q=Maou Gakuin no 01
+[nyaa] Found 49 torrents
+[animetosho] Searching: Maou Gakuin no 01
+[nyaa] Found 49 torrents
+[animetosho] Searching: Maou Gakuin no 01
+[animetosho] Found 0 torrents
+[animetosho] Found 0 torrents
+  [blogger] Scraping for direct URL...
+  [blogger] ✓ Found direct URL
+  [blogger] Scraping for direct URL...
+  [blogger] ✓ Found direct URL
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:werkzeug: * Detected change in '/home/stecustecu/Documents/samehadaku-addon/stremio_addon.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 529-083-258
+INFO:__main__:Stream request: series/tt12432936:1:1
+INFO:__main__:Stream request: series/tt12432936:1:1
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:utils.anilist_helper:AniList found: Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou (ID: 112301)
+INFO:__main__:Searching for S01E01 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E01 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Otakudesu: 8 streams
+INFO:__main__:  └─ Otakudesu: 8 streams
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results (9 streams)
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results (9 streams)
+INFO:__main__:Found 9 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 9 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 07:20:14] "GET /stream/series/tt12432936:1:1.json HTTP/1.1" 200 -
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:utils.tmdb_helper:TMDB metadata: title=The Misfit of Demon King Academy, original=魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～, alts=['魔王学院的不适任者', '魔王学院的不适任者 Ⅱ：史上最强的魔王始祖，转生就读子孙们的学校', '魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', "The Misfit of Demon King Academy: History's Strongest Demon King Reincarnates and Goes to School with His Descendants"]
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:Found 9 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 9 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 07:20:21] "GET /stream/series/tt12432936:1:1.json HTTP/1.1" 200 -
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Otakudesu: 8 streams
+INFO:__main__:  └─ Otakudesu: 8 streams
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results (9 streams)
+WARNING:__main__:  └─ Timeout: Some providers too slow, using partial results (9 streams)
+INFO:__main__:Found 9 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 9 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 07:20:47] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:__main__:Found 9 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 9 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 07:20:51] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -
+INFO:__main__:Stream request: series/tt12432936:1:2
+INFO:__main__:AniList titles: ['Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou', 'The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants', '魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～', 'Maou Gakuin no Futekigousha', 'The Misfit of Demon King Academy', '魔王学院の不適合者', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน', '魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～', 'Непригодный для Академии владыки тьмы']
+INFO:__main__:Prioritized titles (short first): ['Maou Gakuin no', 'The Misfit of', 'Maou Gakuin no Futekigousha', 'ใครว่าข้าไม่เหมาะเป็นจอมมาร', 'The Misfit of Demon King Academy']...
+INFO:__main__:Searching for S01E02 with 12 title variations
+INFO:__main__:Trying title: Maou Gakuin no
+INFO:__main__:  └─ Sokuja: 1 streams
+INFO:__main__:  └─ Samehadaku: 2 streams
+INFO:__main__:  └─ Otakudesu: 8 streams
+INFO:__main__:  └─ Got 11 streams, stopping early
+INFO:__main__:Found 11 streams with title: Maou Gakuin no
+INFO:__main__:Total unique streams: 11 (sorted by reliability)
+INFO:werkzeug:127.0.0.1 - - [20/Dec/2025 07:20:54] "GET /stream/series/tt12432936:1:2.json HTTP/1.1" 200 -

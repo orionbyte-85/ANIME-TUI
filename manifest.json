@@ -1,0 +1,12 @@
+{
+  "id": "community.samehadaku",
+  "version": "1.0.1",
+  "name": "Samehadaku",
+  "description": "Nonton anime sub Indo terbaru — Kingdom, Fumetsu, dll",
+  "icon": "https://v1.samehadaku.how/wp-content/uploads/2024/07/logo-samehadaku-2.png",
+  "background": "https://v1.samehadaku.how/wp-content/uploads/2025/11/Kingdom-Season-6-Episode-8.jpg",
+  "catalogs": [],
+  "resources": ["stream", "subtitles"],
+  "types": ["series"],
+  "idPrefixes": ["samehadaku:"]
+}
