@@ -4,7 +4,7 @@ import re
 import base64
 import json
 
-BASE_URL = "https://otakudesu.best"
+BASE_URL = "https://otakudesu.blog"
 
 def get_headers():
     return {
